@@ -59,6 +59,10 @@ body {
   padding: 0 0.5rem;
 }
 
+.text--highlight {
+  font-weight: bold;
+}
+
 /* Links */
 .link {
   color: var(--color-body--main);
@@ -192,8 +196,9 @@ body {
 /* Grids */
 .grid {
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   padding: 2rem;
+  justify-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -216,6 +221,8 @@ body {
 .showcase__image {
   border-radius: 10px;
   width: 100%;
+  object-fit: cover;
+  transform: translateY(-1.3rem);
 }
 
 .showcase__link {
@@ -233,6 +240,26 @@ body {
 }
 
 /* Images */
+/* TODO: haven't used this one */
 .image--blurred {
-  filter: blur(1.5px) grayscale(0.5);
+  filter: blur(1px) grayscale(0.5);
+}
+
+.image--gray {
+  transition: filter 0.3s;
+  filter: grayscale(0.5);
+}
+
+.image--gray:hover {
+  filter: grayscale(0) saturate(1.6);
+}
+
+/* Hero */
+.hero {
+  width: 18rem;
+  height: 15rem;
+  background: var(--color-secondary--main);
+  border: 5px solid var(--color-secondary--main);
+  border-radius: 12px;
+  overflow: hidden;
 }
