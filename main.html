@@ -17,17 +17,164 @@
       </span>
       <ul class="list list--inline">
         <li class="list__item">
-          <a href="#" class="link link--main">About Me</a>
+          <a href="#about-me" class="link link--main">About Me</a>
         </li>
         <li class="list__item">
-          <a href="#" class="link link--main">Projects</a>
+          <a href="#projects" class="link link--main">Projects</a>
         </li>
         <li class="list__item">
-          <a href="#" class="link link--main">Contact Me</a>
+          <a href="#contact-me" class="link link--main">Contact Me</a>
         </li>
       </ul>
     </nav>
 
+    <!-- home -->
+    <div class="grid grid--1x2">
+      <div class="image-container image-container--main">
+        <img
+          class="image image--gray"
+          src="images/demo.png"
+          alt="Photo of Ettore Bortolin"
+        />
+      </div>
+      <div class="text">
+        <p class="text--highlight">Welcome to my portfolio!</p>
+        <p>
+          My name's Ettore José Bortolin Gomez, but my friends call me "Etto".
+          I'm a young programmer whose goal is to become a great software
+          developer, to achieve that I focus my energy on constantly improving
+          my skills and adquiring new knowledge. I believe there's no better way
+          to learn than through experience, and thus I look forward to working
+          on new projects!
+        </p>
+      </div>
+    </div>
+
+    <!-- about me -->
+    <a name="about-me"></a>
+    <div class="grid showcase showcase--green">
+      <span class="badge badge--green">Interests</span>
+      <div class="grid grid--1x3 grid--green">
+        <div class="image-container--small">
+          <img
+            class="image image--gray"
+            src="images/programming.jpg"
+            alt="Software development"
+          />
+        </div>
+        <div class="image-container--small">
+          <img
+            class="image image--gray"
+            src="images/games.jpg"
+            alt="Videogames"
+          />
+        </div>
+        <div class="image-container--small">
+          <img class="image image--gray" src="images/food.jpg" alt="Cooking" />
+        </div>
+        <div class="image-container--small">
+          <img
+            class="image image--gray"
+            src="images/ai.jpeg"
+            alt="Artificial Intelligence"
+          />
+        </div>
+        <div class="image-container--small">
+          <img
+            class="image image--gray"
+            src="images/invest.jpg"
+            alt="Investment"
+          />
+        </div>
+        <div class="image-container--small">
+          <img
+            class="image image--gray"
+            src="images/workout.jpg"
+            alt="Working out"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="grid showcase showcase--green">
+      <span class="badge badge--green">Skills</span>
+      <div class="grid grid--1x3 grid--green">
+        <ul class="list list--block">
+          <h2 class="header header--green">Front-End</h2>
+          <li class="list__item">JavaScript</li>
+          <li class="list__item">HTML5</li>
+          <li class="list__item">CSS3</li>
+          <li class="list__item">Bootstrap</li>
+        </ul>
+        <ul class="list list--block">
+          <h2 class="header header--green">Back-End</h2>
+          <li class="list__item">Java</li>
+          <li class="list__item">C#</li>
+          <li class="list__item">SQL</li>
+          <li class="list__item">JavaScript</li>
+        </ul>
+        <ul class="list list--block">
+          <h2 class="header header--green">Other tools</h2>
+          <li class="list__item">Git</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <a name="projects"></a>
+    <div class="grid grid--project showcase showcase--purple">
+      <div class="grid grid--1x2">
+        <div class="card card--purple">
+          <h2 class="header header--purple card__header">Humble To-Do List</h2>
+          <div class="card__body">
+            <p class="text text--highlight">( HTML - CSS - JavaScript )</p>
+            <p class="text">
+              As the name implies, this is a To-Do List project. With it, you
+              can perform simple actions you'd expect from any list application:
+              you can input and add some text that represents your task to your
+              list, you can click on any added task to mark them as "completed",
+              and you can also remove any added task in case you don't want to
+              see it in your list anymore.
+            </p>
+            <a href="#" class="card__link link link--purple">humble-todo.com</a>
+          </div>
+        </div>
+        <div
+          class="image-container image-container--project image-container--purple"
+        >
+          <img class="image image--gray" src="images/todo.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid--project showcase showcase--purple">
+      <div class="grid grid--1x2">
+        <div class="card card--purple">
+          <h2 class="header header--purple card__header">Text Tower</h2>
+          <div class="card__body">
+            <p class="text text--highlight">( C# )</p>
+            <p class="text">
+              This project is an executable, it functions as a stack storage.
+              But users don't need to understand what a stack is, so I've built
+              it to make it look like a "tower made of text blocks". After you
+              close the program, a new .csv file will be created, said file will
+              contain the text tower you built during execution. Also, keep this
+              a secret between us, but I've heard you can unlock a fourth action
+              if you build a tall enough tower.
+            </p>
+            <a href="#" class="card__link link link--purple">text-tower.exe</a>
+          </div>
+        </div>
+        <div
+          class="image-container image-container--project image-container--purple"
+        >
+          <img class="image image--gray" src="images/tower.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- contact me -->
+    <a name="contact-me"></a>
     <div class="grid showcase showcase--yellow">
       <span class="badge badge--yellow">Let's work together!</span>
       <p class="text text--center">
