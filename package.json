@@ -1,0 +1,25 @@
+{
+  "name": "etto-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ettolini/etto-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ettolini/etto-portfolio/issues"
+  },
+  "homepage": "https://github.com/ettolini/etto-portfolio#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {},
+  "description": ""
+}
