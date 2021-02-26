@@ -213,10 +213,10 @@ body {
   align-items: center;
 }
 
-.icon-container--main:hover {
+/* .icon-container--main:hover {
   background-color: var(--color-accent--main);
   color: white;
-}
+} */
 
 /* Cards */
 .card {
